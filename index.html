@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>matchee</title>
+</head>
+<body>
+
+  <!-- header -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+      <img
+        srcset="images/logo-mobile.png 116w, images/logo-desktop.png 200w"
+        sizes="(max-width: 767px) 116px, 200px"
+        src="images/logo-desktop.png"
+        alt="Logo"
+      >
+    </div>
+    <nav class="nav-menu">
+      <ul class="nav-menu-list">
+        <li><a href="#">Explore</a></li>
+        <li><a href="#works">How it works</a></li>
+        <li><a href="#">Log in</a></li>
+        <li><a href="#" class="seconday-button button">Join as Brand</a></li>
+        <li><a href="#" class="primary-button button">Join as Creator</a></li>
+      </ul>
+    </nav>
+    </div>
+  </header>
+
+  <!-- bottom-navbar -->
+  <nav class="bottom-navbar">
+    <ul class="bottom-navbar-menu">
+      <li>
+        <a href="#" class="bottom-nav-link">
+          <span><img src="images/search-icon.svg" alt="icon"></span>
+          Explore
+        </a>
+      </li>
+      <li>
+        <a href="#" class="bottom-nav-link">
+          <span><img src="images/question-mark-icon.svg" alt="icon"></span>
+          How it works
+        </a>
+      </li>
+      <li>
+        <a href="#" class="bottom-nav-link">
+          <span><img src="images/star-icon.svg" alt="icon"></span>
+          Brand
+        </a>
+      </li>
+      <li>
+        <a href="#" class="bottom-nav-link">
+          <span><img src="images/influencer-icon.svg" alt="icon"></span>
+          Influencer
+        </a>
+      </li>
+      <li>
+        <a href="#" class="bottom-nav-link">
+          <span><img src="images/login-icon.svg" alt="icon"></span>
+          Log in
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- hero -->
+  <section class="hero">
+      <div class="hero-content">
+        <div class="container">
+          <div class="hero-text">
+          <h1 class="heading-01">Get Your Next <br class="breakline">User-Generated Content <br>for Only $28</h1>
+          <p class="sub-heading">Collaborate with top Creators In Instagram, Facebook, and TikTok to grow your brand.</p>
+          <button class="primary-button button" id="openModalBtn">
+            Start Browsing
+            <img class="btn-icon" src="images/btn-point-down-icon.svg" alt="button icon">       
+          </button>
+        </div>
+        <div class="hero-image">
+          <img
+            srcset="images/updated-profile-assset-hero-desktop.png 1312w, images/updated-profile-assset-hero-mobile.png 390w"
+            sizes="(max-width: 767px) 100%, 1312px"
+            src="images/updated-profile-assset-hero-desktop.png"
+            alt="Updated Profile Asset"
+          >
+        </div>
+        </div>
+      </div>
+
+      <div class="container brands">
+        <div class="heading-05">Trusted by leading brands</div>
+        <ul class="logo-list">
+          <li><img src="images/google-logo.svg" alt="Google"></li>
+          <li><img src="images/facebook-logo.svg" alt="Facebook"></li>
+          <li><img src="images/youtube-logo.svg" alt="Youtube"></li>
+          <li><img src="images/tiktok-logo.svg" alt="TikTok"></li>
+          <li><img src="images/instagram-logo.svg" alt="Instagram"></li>
+        </ul>
+      </div>
+  </section>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span id="closeModalBtn" class="close">&times;</span>
+      <h2>HIRE ME!</h2>
+    </div>
+  </div>
+
+  <!-- how it works section -->
+  <section id="works" class="how-it-works">
+    <div class="container">
+      <div class="section-heading">
+         <h2 class="heading-02">How It Works</h2>
+         <p class="sub-heading">Explore a wide range of influencer talent at your fingertips.</p>
+      </div>
+      <div class="video-playback">
+        <img
+          id="image-element"
+          src="images/image-01-desktop.png"
+          alt="video"
+        >
+        <div class="play-button">
+          <img src="images/play-btn.png" alt="play button">
+        </div>
+      </div>
+      <div class="feature-list">
+        <div class="feature-item">
+          <img class="feature-icon" src="images/fa_dollar-icon.svg" alt="icon">
+          <h5 class="feature-title heading-02">Get the best at every budget</h5>
+          <p class="feature-description">Secure top content creator services at every price level.</p>
+        </div>
+        <div class="feature-item">
+          <img class="feature-icon" src="images/check-icon.svg" alt="icon">
+          <h5 class="feature-title heading-02">Quality work done right</h5>
+          <p class="feature-description">Discover your ideal influencer in minutes.</p>
+        </div>
+        <div class="feature-item">
+          <img class="feature-icon" src="images/lock-icon.svg" alt="icon">
+          <h5 class="feature-title heading-02">Protected payments for peace of mind</h5>
+          <p class="feature-description">Know your costs upfront. Your payment stays secure until you're satisfied.</p>
+        </div>
+        <div class="feature-item">
+          <img class="feature-icon" src="images/headset-icon.svg" alt="icon">
+          <h5 class="feature-title heading-02">24/7 Support</h5>
+          <p class="feature-description">Questions? Our support team is here around the clock to help.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-main-content">
+        <div class="footer-logo">
+          <img class="brand-logo" src="images/logo-mobile.png" alt="">
+          <div class="heading-05">Connect With Us</div>
+          <p>Stay updated on the latest influencer collaborations, industry trends, and more from Matchee.</p>
+          <ul class="social-links">
+            <li>
+              <a href="#">
+                <img src="images/facebook-icon.svg" alt="Facebook icon">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/twitter-icon.svg" alt="Twitter icon">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/instagram-icon.svg" alt="Instagram icon">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/youtube-icon.svg" alt="Instagram icon">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-menu">
+          <div class="footer-menu-item">
+            <ul class="footer-nav-menu">
+              <li class="heading-05">Categories</li>
+              <li><a href="#">Fashion</a></li>
+              <li><a href="#">Music & Dance</a></li>
+              <li><a href="#">Beauty</a></li>
+              <li><a href="#">Travel & Lifestyle</a></li>
+              <li><a href="#">Others</a></li>
+            </ul>
+          </div>
+          <div class="footer-menu-item">
+            <ul class="footer-nav-menu">
+              <li class="heading-05">Exlpore</li>
+              <li><a href="#">Featured Influencers</a></li>
+              <li><a href="#">Instagram Influencers</a></li>
+              <li><a href="#">TikTok Influencers</a></li>
+              <li><a href="#">YouTube Influencers </a></li>
+            </ul>
+          </div>
+          <div class="footer-menu-item">
+            <ul class="footer-nav-menu">
+              <li class="heading-05">Support</li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">How It Works</a></li>
+              <li><a href="#">Frequently Asked Questions</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="sub-footer">
+        <ul class="sub-footer-menu-nav">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Site Map</a></li>
+        </ul>
+        <p class="copyright">© Copyright Matchee<span>. All Rights Reserved</span></p>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="js/main.js"></script>
+</body>
+</html>

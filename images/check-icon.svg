@@ -1,0 +1,22 @@
+<svg width="61" height="50" viewBox="0 0 61 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="61" height="50" fill="#F5F5F5"/>
+<g id="Sample">
+<path d="M-938 -1955C-938 -1956.1 -937.105 -1957 -936 -1957H2608C2609.1 -1957 2610 -1956.1 2610 -1955V1474C2610 1475.1 2609.1 1476 2608 1476H-936C-937.105 1476 -938 1475.1 -938 1474V-1955Z" fill="#B9B9B9"/>
+<g id="Desktop" clip-path="url(#clip0_0_1)">
+<rect width="1920" height="2586" transform="translate(-645 -1668)" fill="white"/>
+<g id="Frame 125">
+<path id="Vector" d="M19.8576 49.5L0 29.7191L9.04942 20.7046L19.8576 31.5029L51.4506 0L60.5 9.01448L19.8576 49.5Z" fill="url(#paint0_linear_0_1)"/>
+</g>
+</g>
+<path d="M-936 -1956H2608V-1958H-936V-1956ZM2609 -1955V1474H2611V-1955H2609ZM2608 1475H-936V1477H2608V1475ZM-937 1474V-1955H-939V1474H-937ZM-936 1475C-936.552 1475 -937 1474.55 -937 1474H-939C-939 1475.66 -937.657 1477 -936 1477V1475ZM2609 1474C2609 1474.55 2608.55 1475 2608 1475V1477C2609.66 1477 2611 1475.66 2611 1474H2609ZM2608 -1956C2608.55 -1956 2609 -1955.55 2609 -1955H2611C2611 -1956.66 2609.66 -1958 2608 -1958V-1956ZM-936 -1958C-937.657 -1958 -939 -1956.66 -939 -1955H-937C-937 -1955.55 -936.552 -1956 -936 -1956V-1958Z" fill="black" fill-opacity="0.1"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_1" x1="1.56702e-06" y1="24.7499" x2="63.4759" y2="25.5493" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F1580C"/>
+<stop offset="1" stop-color="#FBAB40"/>
+</linearGradient>
+<clipPath id="clip0_0_1">
+<rect width="1920" height="2586" fill="white" transform="translate(-645 -1668)"/>
+</clipPath>
+</defs>
+</svg>
