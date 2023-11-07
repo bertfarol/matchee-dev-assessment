@@ -510,6 +510,11 @@ body {
     margin-bottom: 0;
   }
 
+  .sub-footer-menu-nav li a{
+    font-family: var(--heading-font);
+    font-weight: var(--heading-weight);
+  }
+
   .sub-footer-menu-nav li:after{
     content: "";
     display: block;
